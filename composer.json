@@ -1,0 +1,17 @@
+{
+    "name": "vinai/vinaikopp_jsmessages",
+    "license": "GPLv3",
+    "type": "magento-module",
+    "description": "This Magento extensions aims to be a drop in replacement for the Magento core/message block",
+    "homepage": "",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors":[
+        {
+            "name":"Vinai Kopp",
+            "email":""
+        }
+    ]
+}
+

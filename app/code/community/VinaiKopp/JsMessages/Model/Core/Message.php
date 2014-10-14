@@ -37,6 +37,6 @@ class VinaiKopp_JsMessages_Model_Core_Message
     {
         $json = json_encode($messages);
         Mage::getSingleton('core/cookie')->delete(self::COOKIE_MESSAGES);
-        Mage::getSingleton('core/cookie')->set(self::COOKIE_MESSAGES, $json, 0);
+        Mage::getSingleton('core/cookie')->set(self::COOKIE_MESSAGES, $json, 0, null, null, null, false);
     }
 }
