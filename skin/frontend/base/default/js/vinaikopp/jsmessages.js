@@ -29,7 +29,7 @@ JsMessages.prototype = {
         var container, content = '';
         if (container = this.getMessagesElement(type)) {
             messages.each(function(message) {
-                content += "<li>" + decodeURIComponent(message) + "</li>\n";
+                content += "<li><i></i>" + decodeURIComponent(message) + "</li>\n";
             });
             container.update("<ul>\n" + content + "</ul>")
             container.show();
